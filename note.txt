@@ -1,0 +1,2 @@
+const creater = req.body;
+creater.userPassword = await bcryt.hashSync(creater.userPassword, 10)
